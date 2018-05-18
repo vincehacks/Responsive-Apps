@@ -1,0 +1,93 @@
+body{
+  background-image: url(https://cdn.wallpapersafari.com/46/95/9UWjzM.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: url('images/snorlax.png'), auto;
+
+}
+
+footer{
+  text-align: center;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.pokeball{
+  display: inline-block;
+  border: 5px solid white;
+  background:blue;
+  width: 400px;
+  height: 400px;
+  padding 10px;
+}
+
+.pokeball img{
+  display: inline;
+  padding-top: 60px;
+}
+
+.pokeball form{
+  padding-top: 10px;
+}
+
+.pokeball input{
+  text-align: center;
+}
+
+.logocenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+}
+
+#logocontainer{
+  transition: transform 1.5s linear;
+}
+
+#logocontainer:hover{
+  transform:translateY(100px);
+}
+
+/* NAVIGATION!!!!!!! */
+.topnav {
+  overflow: hidden;
+  text-align: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: blue;
+}
+
+/* CUSTOMIZED POKEMON FONT !!!!!!! */
+@font-face {
+  font-family:'PokemonFont'; /* How you want to reference font */
+  src: url('jackster-productions_pokemon-gb/Pokemon GB.ttf');
+}
+
+html {
+  font-family: 'PokemonFont'; /* call the web font */
+  font-size: 22px;
+  color: yellow;
+  text-align:center;
+}
+
+/* @keyframes pokeballMove{
+  0% {left: 0px; top: 0px}
+  25%{left: 0px; top: 0px}
+  50%{left: 0px; top: 0px}
+  75%{left: 0px; top: 0px}
+  100%{left: 0px; top: 0px}
+} */
