@@ -6,6 +6,9 @@ desktop based Web platform. Begins with a look at build tools in ES6. Next is a
 quick review of core Responsive design principles, then examine backing
 technologies required to implement a responsive UI.
 
+I chose my responsive web app to be Pokemon Themed, here is a look at some basic
+functionality:
+
 
 ### Session Objectives
 - Understand content-focused mobile first web development
@@ -23,7 +26,8 @@ technologies required to implement a responsive UI.
 
 
 ### Day 2
-  1. General Mobile and Responsive Design Principles 2.2. Media Queries & Viewports
+  1. General Mobile and Responsive Design Principles 2.2. Media Queries &
+  Viewports
   2. Creating Grids
   3. CSS3: Flexbox, Animations, Transitions
 
@@ -34,20 +38,3 @@ technologies required to implement a responsive UI.
   3. Building Foundation from source
   4. Testable Foundation JavaScript
   5. Icon & Web Fonts
-
-
-#### HTML Basics
-
-
-
-
-
-
-
-
-
-
-
-
-
-

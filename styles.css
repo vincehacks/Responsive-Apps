@@ -52,7 +52,7 @@ footer{
   transform:translateY(100px);
 }
 
-/* NAVIGATION!!!!!!! */
+/* NAVIGATION */
 .topnav {
   overflow: hidden;
   text-align: center;
@@ -71,7 +71,7 @@ footer{
   color: blue;
 }
 
-/* CUSTOMIZED POKEMON FONT !!!!!!! */
+/* CUSTOMIZED POKEMON FONT */
 @font-face {
   font-family:'PokemonFont'; /* How you want to reference font */
   src: url('jackster-productions_pokemon-gb/Pokemon GB.ttf');
@@ -83,11 +83,3 @@ html {
   color: yellow;
   text-align:center;
 }
-
-/* @keyframes pokeballMove{
-  0% {left: 0px; top: 0px}
-  25%{left: 0px; top: 0px}
-  50%{left: 0px; top: 0px}
-  75%{left: 0px; top: 0px}
-  100%{left: 0px; top: 0px}
-} */

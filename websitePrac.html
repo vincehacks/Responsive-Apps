@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <!-- Top Bar Navigation -->
+  <!-- Top Bar Navigation, not linked to any pages yet -->
   <div class="topnav">
     <a href="#home">Home</a>
     <a href="#news">News</a>
@@ -16,15 +16,16 @@
     <a href="#about">About</a>
   </div>
 
-  <!-- Pokemon Go Logo -->
+  <!-- Pokemon Go Logo, dragging functionality of logo is allowed -->
   <div id="logocontainer">
     <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c52f.png" class="logocenter">
   </div>
 
+  <!-- Theme song is embedded, Chrome disables autoplay -->
   <audio src="song.mp3" id="themeSong" controls style="padding-bottom:5px; padding-top:5px" ></audio>
   <p> Click on a Pokeball to see which Pokemon <span style="color:blue">chose YOU!</span> </p>
 
-  <!-- Pokeballs -->
+  <!-- Pokeballs: default as Pokeball, when clicked on, changes to random pokemon -->
   <div style="text-align:center">
     <div class="pokeball">
       <a>
@@ -103,18 +104,18 @@
     function changeImage(id) {
       const pokeballDefault = "https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG"
       var randomPoke = Math.floor(Math.random() * myPix.length);
-
       document.querySelector("#" + id).src=myPix[randomPoke];
     }
 
-    // Allowing the logo to be draggable
+    // JQuery: Allowing the logo to be draggable
     $(function() {
       $("#logocontainer").draggable();
     });
 
   </script>
 
+  <!-- Footer -->
   <footer>Copyright &copy; vnzchang</footer>
-
+  
 </body>
 </HTML>
