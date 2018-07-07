@@ -8,8 +8,7 @@ technologies required to implement a responsive UI.
 
 I chose my responsive web app to be Pokemon Themed, here is a look at some basic
 functionality:
-![Final Product](https://media.giphy.com/media/3dbKlmJb2TfDe5CO0U/giphy.gif)
-![Final Product](<img src="https://media.giphy.com/media/3dbKlmJb2TfDe5CO0U/giphy.gif" alt="drawing" width="400px" height="400px"/>)
+![Final Product](<img src="https://media.giphy.com/media/3dbKlmJb2TfDe5CO0U/giphy.gif" alt="drawing" width="600px" height="600px" style="text-align:center"/>)
 
 
 
