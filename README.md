@@ -8,6 +8,7 @@ technologies required to implement a responsive UI.
 
 I chose my responsive web app to be Pokemon Themed, here is a look at some basic
 functionality:
+![Final Product](http://www.giphy.com/gifs/3dbKlmJb2TfDe5CO0U)
 
 
 ### Session Objectives
