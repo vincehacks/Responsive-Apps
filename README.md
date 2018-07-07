@@ -7,10 +7,9 @@ quick review of core Responsive design principles, then examine backing
 technologies required to implement a responsive UI.
 
 I chose my responsive web app to be Pokemon Themed, here is a look at some basic
-functionality: <br/>
+functionality:
+<br/>
 <img src="https://media.giphy.com/media/3dbKlmJb2TfDe5CO0U/giphy.gif" alt="drawing" width="700px" height="500px"/>
-
-
 
 
 ### Session Objectives
