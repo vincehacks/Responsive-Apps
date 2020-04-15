@@ -1,4 +1,5 @@
 # Responsive-Apps
+
 Created By Vince Chang <br/>
 
 My implementation of a responsive user experience for a smart-phone/tablet/
@@ -11,8 +12,8 @@ a look at the final product: <br/>
 
 <img src="https://media.giphy.com/media/3dbKlmJb2TfDe5CO0U/giphy.gif" width="700px" height="500px"/>
 
-
 ### Objectives
+
 - Understand content-focused mobile first web development
 - Create responsive web application
 - Utilize Sass to manage CSS development

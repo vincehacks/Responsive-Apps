@@ -1,123 +1,190 @@
 <!-- Created by Vince Chang -->
 
-<HTML>
-<head>
-    <title> Pokemon Center </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<html>
+  <head>
+    <title>Pokemon Center</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
+  </head>
 
-<body>
-  <!-- Top Bar Navigation, not linked to any pages yet -->
-  <div class="topnav">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-
-  <!-- Pokemon Go Logo, dragging functionality of logo is allowed -->
-  <div id="logocontainer">
-    <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c52f.png" class="logocenter">
-  </div>
-
-  <!-- Theme song is embedded, Chrome disables autoplay -->
-  <audio src="song.mp3" id="themeSong" controls style="padding-bottom:5px; padding-top:5px" ></audio>
-  <p> Click on a Pokeball to see which Pokemon <span style="color:blue">chose YOU!</span> </p>
-
-  <!-- Pokeballs: default as Pokeball, when clicked on, changes to random pokemon -->
-  <div style="text-align:center">
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme" onclick="changeImage('pokeme')"/>
-        <form  method="post">
-          <input type="text" maxlength="15" name="guess" required value="Guess the Pokemon"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
+  <body>
+    <!-- Top Bar Navigation, not linked to any pages yet -->
+    <div class="topnav">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </div>
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme2" onclick="changeImage('pokeme2')"/>
-        <form  method="post">
-          <input type="text" name="guess" required value="Guess the Pokemon"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
+
+    <!-- Pokemon Go Logo, dragging functionality of logo is allowed -->
+    <div id="logocontainer">
+      <img
+        src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c52f.png"
+        class="logocenter"
+      />
     </div>
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme3" onclick="changeImage('pokeme3')"/>
-        <form  method="post">
-          <input type="text" name="guess" required value="Guess the Pokemon"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
+
+    <!-- Theme song is embedded, Chrome disables autoplay -->
+    <audio
+      src="song.mp3"
+      id="themeSong"
+      controls
+      style="padding-bottom: 5px; padding-top: 5px;"
+    ></audio>
+    <p>
+      Click on a Pokeball to see which Pokemon
+      <span style="color: blue;">chose YOU!</span>
+    </p>
+
+    <!-- Pokeballs: default as Pokeball, when clicked on, changes to random pokemon -->
+    <div style="text-align: center;">
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme"
+            onclick="changeImage('pokeme')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              maxlength="15"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme2"
+            onclick="changeImage('pokeme2')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme3"
+            onclick="changeImage('pokeme3')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme4"
+            onclick="changeImage('pokeme4')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme5"
+            onclick="changeImage('pokeme5')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
+      <div class="pokeball">
+        <a>
+          <img
+            src="images/p0.png"
+            id="pokeme6"
+            onclick="changeImage('pokeme6')"
+          />
+          <form method="post">
+            <input
+              type="text"
+              name="guess"
+              required
+              value="Guess the Pokemon"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </a>
+      </div>
     </div>
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme4" onclick="changeImage('pokeme4')"/>
-        <form  method="post">
-          <input type="text" name="guess" required value="Guess the Pokemon"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
-    </div>
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme5" onclick="changeImage('pokeme5')"/>
-        <form  method="post">
-          <input type="text" name="guess" required value="Guess the Pokemon"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
-    </div>
-    <div class="pokeball">
-      <a>
-        <img src="images/p0.png" id="pokeme6" onclick="changeImage('pokeme6')"/>
-        <form  method="post">
-          <input type="text" name="guess" required value="Guess the Pokemon" ><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </a>
-    </div>
-  </div>
 
-  <!-- Javascript that will handle randomizing the Pokemon -->
-  <script language="javascript">
+    <!-- Javascript that will handle randomizing the Pokemon -->
+    <script language="javascript">
+      // Array that holds the URLS of each Pokemon
+      var myPix = new Array(
+        'images/p1.png',
+        'images/p2.png',
+        'images/p3.png',
+        'images/p4.png',
+        'images/p5.png',
+        'images/p6.png',
+        'images/p7.png',
+        'images/p8.png',
+        'images/p9.png',
+        'images/p10.png'
+      );
 
-    // Array that holds the URLS of each Pokemon
-    var myPix = new Array(
-      "images/p1.png",
-      "images/p2.png",
-      "images/p3.png",
-      "images/p4.png",
-      "images/p5.png",
-      "images/p6.png",
-      "images/p7.png",
-      "images/p8.png",
-      "images/p9.png",
-      "images/p10.png"
-    );
+      // Logic that will assign which Pokemon to render, query selector
+      function changeImage(id) {
+        const pokeballDefault =
+          'https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG';
+        var randomPoke = Math.floor(Math.random() * myPix.length);
+        document.querySelector('#' + id).src = myPix[randomPoke];
+      }
 
-    // Logic that will assign which Pokemon to render, query selector
-    function changeImage(id) {
-      const pokeballDefault = "https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG"
-      var randomPoke = Math.floor(Math.random() * myPix.length);
-      document.querySelector("#" + id).src=myPix[randomPoke];
-    }
+      // JQuery: Allowing the logo to be draggable
+      $(function () {
+        $('#logocontainer').draggable();
+      });
+    </script>
 
-    // JQuery: Allowing the logo to be draggable
-    $(function() {
-      $("#logocontainer").draggable();
-    });
-
-  </script>
-
-  <!-- Footer -->
-  <footer>Copyright &copy; vnzchang</footer>
-
-</body>
-</HTML>
+    <!-- Footer -->
+    <footer>Copyright &copy; vnzchang</footer>
+  </body>
+</html>
